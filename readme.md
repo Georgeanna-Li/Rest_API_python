@@ -24,7 +24,7 @@ This project is a simple REST API for managing a list of drinks. The API is buil
 
    ```sh
    git clone https://github.com/yourusername/drinks-api.git
-   cd drinks-api`
+   cd drinks-api
 
 2. **Create and activate a virtual environment:**
 
@@ -36,15 +36,15 @@ This project is a simple REST API for managing a list of drinks. The API is buil
 
     ```sh
     pip install Flask Flask-SQLAlchemy
-    ```
 
 4. **Run the application:**
 
     ```sh
     export FLASK_APP=application.py
-export FLASK_DEBUG=1  # For development mode
-flask run
-    ```
+    export FLASK_DEBUG=1  # For development mode
+    flask run
+
+    
 A little bit instruction about these three lines:
 
 1. Setting the Flask Application Entry Point:
