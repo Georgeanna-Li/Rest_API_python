@@ -1,6 +1,48 @@
 # This is a REST API project
 
-## How to run the file
+This project is a simple REST API for managing a list of drinks. The API is built using Flask and SQLAlchemy.
+
+## Features
+
+- **View all drinks**: `GET /drinks`
+- **View a specific drink**: `GET /drinks/<id>`
+- **Add a new drink**: `POST /drinks`
+- **Delete a drink**: `DELETE /drinks/<id>`
+
+## Setup
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Virtual environment (recommended)
+- Flask
+- Flask-SQLAlchemy
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/yourusername/drinks-api.git
+   cd drinks-api```
+
+2. **Create and activate a virtual environment:**
+
+   ```python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate```
+
+3. **Install the required packages:**
+
+    ```pip install Flask Flask-SQLAlchemy
+    ```
+
+4. **Run the application:**
+
+    ```export FLASK_APP=application.py
+export FLASK_DEBUG=1  # For development mode
+flask run
+    ```
+A little bit instruction about these three lines:
 
 1. Setting the Flask Application Entry Point:
 
@@ -20,6 +62,8 @@ Debug mode also enables auto-reload, which means the server will automatically r
 
 `flask run`
 
+Usage
+You can test the API using tools like curl, httpie, or Postman.
 
 
 ## Inherit from db.Model
