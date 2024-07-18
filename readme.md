@@ -28,17 +28,20 @@ This project is a simple REST API for managing a list of drinks. The API is buil
 
 2. **Create and activate a virtual environment:**
 
-   ```python3 -m venv venv
+   ```sh
+   python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate```
 
 3. **Install the required packages:**
 
-    ```pip install Flask Flask-SQLAlchemy
+    ```sh
+    pip install Flask Flask-SQLAlchemy
     ```
 
 4. **Run the application:**
 
-    ```export FLASK_APP=application.py
+    ```sh
+    export FLASK_APP=application.py
 export FLASK_DEBUG=1  # For development mode
 flask run
     ```
