@@ -24,13 +24,13 @@ This project is a simple REST API for managing a list of drinks. The API is buil
 
    ```sh
    git clone https://github.com/yourusername/drinks-api.git
-   cd drinks-api```
+   cd drinks-api`
 
 2. **Create and activate a virtual environment:**
 
    ```sh
    python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate```
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. **Install the required packages:**
 
