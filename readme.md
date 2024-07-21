@@ -83,3 +83,7 @@ def __init__(self, id=None, name=None, description=None):
     self.name = name
     self.description = description
 `
+## More readings
+
+Here we are calling Flask, but you can also implement this in FastAPI. And in this article they talked about how to generate separate files for clairty. 
+[How you can modularize your files in FastAPI](https://towardsdev.com/fastapi-from-app-py-to-a-modular-architecture-54ca9e0044eb)
